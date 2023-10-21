@@ -1,0 +1,14 @@
+:root {
+  /* colors */
+  --red: #e50914;
+  --grey: rgba(128, 128, 128, 0.7);
+  --grey-2: rgba(22, 22, 22, 0.7);
+  --dark-light: #2d2d2d;
+  --dark-light-1: rgb(35, 35, 35);
+  --dark-light-2: #414141;
+  --dark-1: rgba(0, 0, 0, 0.4);
+  --light: #ffffff;
+  --light-2: rgba(255, 255, 255, 0.7);
+  --dark: #000;
+  --blue: #0071eb;
+}

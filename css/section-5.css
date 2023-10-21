@@ -1,0 +1,13 @@
+.section-5 .child img {
+  width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  .section-5 {
+    flex-flow: column-reverse;
+  }
+
+  .section-5 .child {
+    margin-top: 1rem;
+  }
+}

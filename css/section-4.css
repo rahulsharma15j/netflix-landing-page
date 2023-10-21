@@ -1,0 +1,18 @@
+.section-4 .devices {
+  position: relative;
+}
+
+.section-4 .devices img {
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+
+.section-4 .devices video {
+  position: absolute;
+  left: -13%;
+  top: -13%;
+  transform: translate(50%, 50%);
+  width: 62.1%;
+  z-index: 0;
+}

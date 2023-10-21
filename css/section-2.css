@@ -1,0 +1,17 @@
+.section-2 .tv {
+  position: relative;
+}
+
+.section-2 .tv img {
+  width: 100%;
+  z-index: 1;
+}
+
+.tv video {
+  position: absolute;
+  width: 73%;
+  top: 48.3%;
+  left: 49.7%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}

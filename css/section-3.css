@@ -1,0 +1,56 @@
+.section-3 .mobile {
+  position: relative;
+}
+
+.section-3 .mobile .mobile-img img {
+  width: 100%;
+}
+
+.section-3 .mobile .mobile-download {
+  position: absolute;
+  left: 50%;
+  width: 55%;
+  bottom: 8%;
+  transform: translateX(-50%);
+  overflow: hidden;
+  padding: 8px 12px;
+  border-radius: 15px;
+  background-color: var(--dark);
+  border: 2px solid var(--grey);
+}
+
+.section-3 .mobile-download .boxshot {
+  height: 80px;
+  object-fit: cover;
+}
+
+.section-3 .mobile-download .boxshot img {
+  height: 100%;
+}
+
+.section-3 .mobile-download .download-icon {
+  height: 3.75rem;
+}
+
+.section-3 .mobile-download .download-icon img {
+  height: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  .section-3 {
+    flex-flow: column-reverse;
+  }
+
+  .section-3 .mobile .mobile-download {
+    width: 62%;
+    padding: 0.35rem 0.75rem;
+  }
+
+  .section-3 .mobile-download .boxshot {
+    height: 64px;
+  }
+
+  .section-3 .mobile-download .download-icon {
+    height: 3rem;
+  }
+}

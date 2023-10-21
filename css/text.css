@@ -1,0 +1,47 @@
+.text-1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.text-2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.text-3 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.text-4 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.text-5 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.white {
+  color: var(--light);
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.grey {
+  color: var(--light-2);
+}
+
+@media screen and (max-width: 960px) {
+  .text-1 {
+    font-size: 2rem;
+  }
+
+  .text-2,
+  .text-3 {
+    font-size: 1.125rem;
+  }
+}

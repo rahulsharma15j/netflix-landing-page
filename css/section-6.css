@@ -1,0 +1,50 @@
+.section-6 .list {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.section-6 .list .list-item {
+  background-color: var(--dark-light);
+  margin-bottom: 0.5rem;
+}
+
+.list .list-item h3 {
+  position: relative;
+  padding: 1.9rem 1.5rem;
+  line-height: 1.5rem;
+  cursor: pointer;
+}
+
+.list .list-item h3 span {
+  position: absolute;
+  top: 50%;
+  font-size: 3.3rem;
+  transform: translateY(-50%);
+  right: 1.3rem;
+}
+
+.list .list-item p {
+  padding: 0 1.5rem;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: padding-top 0.3s ease, padding-bottom 0.3s ease,
+    max-height 0.3s ease;
+}
+
+.list .list-item p.active {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  max-height: 75rem;
+  opacity: 1;
+}
+
+@media screen and (max-width: 960px) {
+  .section-6 .list .list-item h3 {
+    padding: 1.7rem 1.5rem;
+  }
+
+  .section-6 .list-item h3 span {
+    font-size: 1.9rem;
+  }
+}

@@ -1,0 +1,85 @@
+/* Common css classes */
+.flex {
+  display: flex;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.flex-50 {
+  flex: 0.5;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex_25 {
+  flex: 25%;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+/* divider css */
+.divider {
+  height: 8px;
+  width: 100%;
+  background-color: var(--dark-light-1);
+}
+
+/* Section css */
+.section,
+.footer {
+  max-width: calc(66.666666% - 6rem);
+  padding: 4.5rem 0;
+}
+
+.border-bottom {
+  border-bottom: 1px solid var(--dark);
+}
+
+@media screen and (max-width: 1920px) {
+  .section {
+    max-width: calc(83% - 6rem);
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .section {
+    max-width: calc(100% - 4rem);
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .section {
+    max-width: calc(100% - 4rem);
+
+    flex-direction: column;
+  }
+
+  .section .info {
+    flex: 1;
+    text-align: center;
+  }
+}

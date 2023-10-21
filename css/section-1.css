@@ -1,0 +1,62 @@
+.section-1 {
+  position: relative;
+  min-height: 700px;
+  padding: 158px 0 64px;
+}
+
+.section-1 .background {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.25) translateY(-10%);
+}
+
+.background .shadow {
+  position: inherit;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--dark-1);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+
+.info {
+  z-index: 2;
+}
+
+.input-box {
+  width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  .section-1 {
+    min-height: 512px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .info {
+    text-align: center;
+    max-width: calc(100% - 3rem);
+  }
+
+  .input-box {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
